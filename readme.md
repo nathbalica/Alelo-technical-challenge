@@ -23,6 +23,8 @@ Fiz um shell script que possui a funcionalidade de configurar e executar as APIs
 - Primeiro verifique se o arquivo `exec.sh` tem a permissão de execução: `ls -lah`
 - Em seguida, execute o comando `./exec.sh`
 
+⚠️ Atenção: Lembre-se de subir as apis que devem ser integradas
+
 ### Q3_integracao_ecommerce
 
 Foi realizada a resolução da integração de um e-commerce com um provedor de serviços de logistica. O diagrama com o esquema esta logo abaixo.
