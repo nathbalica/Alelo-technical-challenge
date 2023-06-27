@@ -1,0 +1,5 @@
+venv-alelo
+
+__pycache__
+.pytest_cache
+
