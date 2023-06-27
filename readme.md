@@ -1,50 +1,35 @@
-algoritmo "exercicio_1"
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 6/26/2023
-Var
-   // Adição da declaracao da variavel soma
-   numero1, numero2, soma: inteiro
-   
-Iniciol
-   escreva("Digite o primeiro número: ")
-   leia(numero1)
+# Desafio Técnico Alelo
 
-   escreva("Digite o segundo número: ")
-   leia(numero2)
-   //Substituiu o operador = por <- para atribuir o valor da
-   //soma das variáveis numero1 e numero2 à variável soma.
-   soma <- numero1 + numero2
+### Q1_ Portugol
 
-   se soma > 10 entao
-     //Mudou a chamada de função escrevaL para escrevaL.
-     //A função escrevaL é usada para escrever uma linha
-     //com quebra de linha ao final.
-     escrevaL("A soma é maior que 10")
+Código simples em “Portugol” com erros corrigidos.
 
-   senao
-     escrevaL("A soma é menor ou igual a 10!")
-   //Incluiu o comando fimse para encerrar o bloco condicional se-senão.
-   fimse
-   
-   // Mudou a concatenação da string para incluir
-   //diretamente a variável soma utilizando a vírgula.
+### Q2_api_integration
 
-   escreva("O resultado da soma é: ",soma)
+Foram aplicadas melhorias ao código que faz a integração entre duas ferramentas (tool1 e tool2) em Python.
 
-//Mudou a palavra-chave fim_algoritmo para Fimalgoritmo para indicar o fim do algoritmo.
-Fimalgoritmo
+#### APIS para teste
+Projetei uma API  para ser usada em conjunto com o código de integração de apis. Essa api funciona para testar a integração com as Ferramentas 1 e 2, utilizando as URLs definidas nas variáveis de ambiente TOOL1_URL e TOOL2_URL. Essas URLs apontam para os respectivos endpoints /api1 e /api2 nesta API.
+
+#### Testes Unitários
+Fiz os casos de teste para a API de integração. Ele usa o framework de testes pytest para definir e executar os casos de teste. Assim, posso garantir a qualidade e o funcionamento correto da API. 
+
+#### Shell Script
+
+Fiz um shell script que possui a funcionalidade de configurar e executar as APIs construídas em conjunto com o ambiente virtual correspondente.
+
+#### Como fazer deploy localmente
+
+- Primeiro verifique se o arquivo `exec.sh` tem a permissão de execução: `ls -lah`
+- Em seguida, execute o comando `./exec.sh`
+
+### Q3_integracao_ecommerce
+
+Foi realizada a resolução da integração de um e-commerce com um provedor de serviços de logistica. O diagrama com o esquema esta logo abaixo.
+
+### Q4_jogo_adivinhacao
+
+Desenvolvimento de um fluxograma que implementa um jogo de adivinhação.
 
 
-## Exercicio 2
 
-### Instalacao das libs
-  ´´´
-    ./install.sh
-    python3 -m venv alelo-venv
-    source alelo-venv/bin/activate
-    pip install -r requirements.txt
-    python app.py
-  ´´´
